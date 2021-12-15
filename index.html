@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <nav class="flex-row">
+        <div class="logo">
+          <img src="images/icon-menu.svg" class="hamburger" alt="hamburger">
+          <img src="images/logo.svg" alt="logo">
+          <div class="nav-menu">
+            <img src="images/icon-close.svg" class="close" alt="close button">
+            <ul>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="profile flex-row">
+          <div class="cart-icon">
+            <img src="images/icon-cart.svg" alt="cart">
+            <span class="cart-count">0</span>
+          </div>
+          <img src="images/image-avatar.png" class="avatar" alt="avatar">
+        </div>
+      </nav>
+
+      <div class="cart-menu">
+        <div class="cart-items">
+          <p class="cart-title">cart</p>
+          <div class="cart-item-wrapper"></div>
+          <div class="btn-wrapper"></div>
+        </div>
+        <div class="empty-cart"></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="products-detail">
+        <div class="products">
+          <div class="product">
+            <img src="images/image-product-1.jpg" class="product-img" alt="product">
+            <div class="navigator">
+              <div class="nav-wrapper prev"><img src="images/icon-previous.svg" alt="icon-previous"></div>
+              <div class="nav-wrapper next"><img src="images/icon-next.svg" alt="icon-next"></div>
+            </div>
+          </div>
+
+          <div class="thumbnails">
+            <div class="thumb-img thumb-img1">
+              <img class="image" src="images/image-product-1-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img2">
+              <img class="image" src="images/image-product-2-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img3">
+              <img class="image" src="images/image-product-3-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img4">
+              <img class="image" src="images/image-product-4-thumbnail.jpg" alt="thumb-nails">
+            </div>
+          </div>
+        </div>
+
+        <div class="product-info">
+          <div class="product-info-wrapper">
+            <p class="company-name">Sneaker Company</p>
+
+            <p class="product-name h1">Fall Limited Edition Sneakers</p>
+
+            <p class="para">These low-profile sneakers are your perfect casual wear companion. Featuring a durable
+              rubber
+              outer sole, they’ll withstand everything the weather can offer.</p>
+
+            <div class="price-tag flex-row">
+              <div class="left flex-row">
+                <p class="discount h1">$125.00</p>
+                <span class="percent">50%</span>
+              </div>
+              <p class="price">$250.00</p>
+            </div>
+
+            <div class="quantity">
+              <div class="quantity-btn flex-row btn">
+                <span class="minus"><img src="images/icon-minus.svg" alt="minus"></span> 
+                <span class="quantity-count"></span> 
+                <span class="plus"><img src="images/icon-plus.svg" alt="plus"></span>
+              </div>
+              <div class="btn-container">
+                <button class="add-cart-btn cart-btn btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-lighthouse">
+          <img src="images/icon-close.svg" alt="close" class="close-lighthouse">
+          <div class="product-lighthouse">
+            <img src="images/image-product-1.jpg" alt="product" class="display-lighthouse">
+            <div class="navigator nav-lighthouse">
+              <div class="nav-wrapper light-prev prev"><img src="images/icon-previous.svg" alt="icon-previous"></div>
+              <div class="nav-wrapper light-next next"><img src="images/icon-next.svg" alt="icon-next"></div>
+            </div>
+          </div>
+
+          <div class="thumbnails-lighthouse thumbnails">
+            <div class="thumb-img thumb-img1">
+              <img class="image" src="images/image-product-1-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img2">
+              <img class="image" src="images/image-product-2-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img3">
+              <img class="image" src="images/image-product-3-thumbnail.jpg" alt="thumb-nails">
+            </div>
+            <div class="thumb-img thumb-img4">
+              <img class="image" src="images/image-product-4-thumbnail.jpg" alt="thumb-nails">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
